@@ -1,0 +1,7 @@
+*/node_modules
+frontend/android/
+frontend/ios/
+frontend/__tests__/
+*/yarn-error.log
+instructions.txt
+todo.txt

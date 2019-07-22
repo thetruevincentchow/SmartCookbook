@@ -1,0 +1,3752 @@
+{
+  "name": "Hi",
+  "intents": [
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General-How_Much_Is",
+      "examples": [
+        {
+          "text": "how much was"
+        },
+        {
+          "text": "how much is"
+        },
+        {
+          "text": "whats the cost of"
+        },
+        {
+          "text": "whats the price of"
+        },
+        {
+          "text": "how much are"
+        }
+      ]
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Shut up"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me something funny"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General-Who",
+      "examples": [
+        {
+          "text": "who are"
+        },
+        {
+          "text": "who"
+        },
+        {
+          "text": "who is"
+        }
+      ]
+    },
+    {
+      "intent": "General-How_To",
+      "examples": [
+        {
+          "text": "how to"
+        }
+      ]
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Good day"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General-Where_Is",
+      "examples": [
+        {
+          "text": "where is the location of"
+        },
+        {
+          "text": "where is"
+        },
+        {
+          "text": "where are"
+        }
+      ]
+    },
+    {
+      "intent": "General-Response_yes",
+      "examples": [
+        {
+          "text": "That works"
+        },
+        {
+          "text": "Count me in"
+        },
+        {
+          "text": "Of cos"
+        },
+        {
+          "text": "Definitely"
+        },
+        {
+          "text": "You bet"
+        },
+        {
+          "text": "Yes mdm"
+        },
+        {
+          "text": "Alrightly"
+        },
+        {
+          "text": "U bet"
+        },
+        {
+          "text": "I'm in"
+        },
+        {
+          "text": "agree"
+        },
+        {
+          "text": "can"
+        },
+        {
+          "text": "Certainly"
+        },
+        {
+          "text": "Alright"
+        },
+        {
+          "text": "Absolutely"
+        },
+        {
+          "text": "Yuppers"
+        },
+        {
+          "text": "Yup"
+        },
+        {
+          "text": "Ya"
+        },
+        {
+          "text": "Sure, please do"
+        },
+        {
+          "text": "For sure"
+        },
+        {
+          "text": "I think so"
+        },
+        {
+          "text": "Of course"
+        },
+        {
+          "text": "Yes you have, thank you!"
+        },
+        {
+          "text": "Yes sir"
+        },
+        {
+          "text": "Yes I am"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "Yep"
+        },
+        {
+          "text": "YAAAAAS"
+        },
+        {
+          "text": "By all means"
+        },
+        {
+          "text": "Positive"
+        },
+        {
+          "text": "Should be"
+        },
+        {
+          "text": "Nodding"
+        },
+        {
+          "text": "Y"
+        },
+        {
+          "text": "Yes I have"
+        },
+        {
+          "text": "Affirmative"
+        },
+        {
+          "text": "I am in"
+        }
+      ]
+    },
+    {
+      "intent": "General_When_Is",
+      "examples": [
+        {
+          "text": "when was"
+        },
+        {
+          "text": "when is"
+        },
+        {
+          "text": "when to"
+        },
+        {
+          "text": "when are"
+        }
+      ]
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "Ask_for_Recipes",
+      "examples": [
+        {
+          "text": "what should I cook?"
+        },
+        {
+          "text": "i have a few food"
+        },
+        {
+          "text": "i am hungry"
+        },
+        {
+          "text": "hungry"
+        },
+        {
+          "text": "cook what ah?"
+        }
+      ],
+      "description": "reply the corresponding recipes"
+    },
+    {
+      "intent": "General-Response_maybe",
+      "examples": [
+        {
+          "text": "Hmm"
+        },
+        {
+          "text": "I cannot remember"
+        },
+        {
+          "text": "I don't know"
+        },
+        {
+          "text": "I dun know"
+        },
+        {
+          "text": "Not sure"
+        },
+        {
+          "text": "I have forgotten..."
+        },
+        {
+          "text": "Maybe"
+        },
+        {
+          "text": "Idk"
+        },
+        {
+          "text": "Not quite sure"
+        },
+        {
+          "text": "Erm"
+        },
+        {
+          "text": "perhaps"
+        },
+        {
+          "text": "i dunno"
+        },
+        {
+          "text": "Don't know"
+        },
+        {
+          "text": "how I know"
+        },
+        {
+          "text": "I guess so..."
+        }
+      ]
+    },
+    {
+      "intent": "General-What_is",
+      "examples": [
+        {
+          "text": "basic information about"
+        },
+        {
+          "text": "get back to me what is"
+        },
+        {
+          "text": "get back to me with the definition of"
+        },
+        {
+          "text": "get back to me with the details of"
+        },
+        {
+          "text": "get back to me with the explanation of"
+        },
+        {
+          "text": "get back to me with the meaning of"
+        },
+        {
+          "text": "get back to me with the reason of"
+        },
+        {
+          "text": "get me the definition for"
+        },
+        {
+          "text": "get me the definition of"
+        },
+        {
+          "text": "get me the explanation of"
+        },
+        {
+          "text": "get me the meaning of"
+        },
+        {
+          "text": "get me the reason of"
+        },
+        {
+          "text": "give me anything you know about"
+        },
+        {
+          "text": "give me anything you know abt"
+        },
+        {
+          "text": "give me everything you know about"
+        },
+        {
+          "text": "give me everything you know abt"
+        },
+        {
+          "text": "give me the definition for"
+        },
+        {
+          "text": "give me the definition of"
+        },
+        {
+          "text": "give me the details of"
+        },
+        {
+          "text": "give me the information for"
+        },
+        {
+          "text": "give me the information of"
+        },
+        {
+          "text": "give me the meaning of"
+        },
+        {
+          "text": "i am hoping to know the definition for"
+        },
+        {
+          "text": "i am hoping to know the definition of"
+        },
+        {
+          "text": "i am hoping to know the meaning of"
+        },
+        {
+          "text": "i am hoping to know what is"
+        },
+        {
+          "text": "i am learning about"
+        },
+        {
+          "text": "i am learning abt"
+        },
+        {
+          "text": "I am trying to find my credential iD"
+        },
+        {
+          "text": "i hope to know the definition for"
+        },
+        {
+          "text": "i hope to know the definition of"
+        },
+        {
+          "text": "i hope to know the meaning of"
+        },
+        {
+          "text": "i m hoping to know the definition for"
+        },
+        {
+          "text": "i m hoping to know the definition of"
+        },
+        {
+          "text": "i m hoping to know the meaning of"
+        },
+        {
+          "text": "i m hoping to know what is"
+        },
+        {
+          "text": "i m learning about"
+        },
+        {
+          "text": "i'm learning about"
+        },
+        {
+          "text": "info on"
+        },
+        {
+          "text": "information on"
+        },
+        {
+          "text": "information regarding"
+        },
+        {
+          "text": "information regards to"
+        },
+        {
+          "text": "information with regards to"
+        },
+        {
+          "text": "i want the definition for"
+        },
+        {
+          "text": "i want the definition of"
+        },
+        {
+          "text": "i want the meaning of"
+        },
+        {
+          "text": "i want to hear about"
+        },
+        {
+          "text": "i want to hear abt"
+        },
+        {
+          "text": "i want to know about"
+        },
+        {
+          "text": "i want to know abt"
+        },
+        {
+          "text": "i want to know what is"
+        },
+        {
+          "text": "i want to learn abt"
+        },
+        {
+          "text": "i wish the definition for"
+        },
+        {
+          "text": "i wish the definition of"
+        },
+        {
+          "text": "i wish the meaning of"
+        },
+        {
+          "text": "i wish to hear about"
+        },
+        {
+          "text": "i wish to hear abt"
+        },
+        {
+          "text": "i wish to know about"
+        },
+        {
+          "text": "i wish to know abt"
+        },
+        {
+          "text": "i wish to know what is"
+        },
+        {
+          "text": "i wish to learn about"
+        },
+        {
+          "text": "i wish to learn abt"
+        },
+        {
+          "text": "knowing about"
+        },
+        {
+          "text": "what are"
+        },
+        {
+          "text": "what is"
+        },
+        {
+          "text": "basic background about"
+        },
+        {
+          "text": "basic background abt"
+        },
+        {
+          "text": "basic details about"
+        },
+        {
+          "text": "basic details abt"
+        },
+        {
+          "text": "basic info about"
+        },
+        {
+          "text": "basic info abt"
+        },
+        {
+          "text": "basic information abt"
+        },
+        {
+          "text": "brief describe"
+        },
+        {
+          "text": "brief description of"
+        },
+        {
+          "text": "briefly descibe"
+        },
+        {
+          "text": "can u describe"
+        },
+        {
+          "text": "can u explain"
+        },
+        {
+          "text": "can u explain what is"
+        },
+        {
+          "text": "can u give an explanation of"
+        },
+        {
+          "text": "can u help me understand"
+        },
+        {
+          "text": "can u talk about"
+        },
+        {
+          "text": "can you describe"
+        },
+        {
+          "text": "can you explain"
+        },
+        {
+          "text": "can you explain what is"
+        },
+        {
+          "text": "can you give an explanation of"
+        },
+        {
+          "text": "can you help me to understand"
+        },
+        {
+          "text": "can you help me understand"
+        },
+        {
+          "text": "can you talk about"
+        },
+        {
+          "text": "describe"
+        },
+        {
+          "text": "describe to me about"
+        },
+        {
+          "text": "description on"
+        },
+        {
+          "text": "detailed info on"
+        },
+        {
+          "text": "detailed information on"
+        },
+        {
+          "text": "details about"
+        },
+        {
+          "text": "details on"
+        },
+        {
+          "text": "do u aware of"
+        },
+        {
+          "text": "do u know"
+        },
+        {
+          "text": "do you aware of"
+        },
+        {
+          "text": "do you know"
+        },
+        {
+          "text": "explain what is"
+        },
+        {
+          "text": "Financial Matters"
+        },
+        {
+          "text": "find me the"
+        },
+        {
+          "text": "find me the meaning of"
+        },
+        {
+          "text": "find the meaning of"
+        },
+        {
+          "text": "fish me the meaning of"
+        },
+        {
+          "text": "fish to me the meaning of"
+        },
+        {
+          "text": "gave me the definition for"
+        },
+        {
+          "text": "gave me the definition of"
+        },
+        {
+          "text": "gave me the details of"
+        },
+        {
+          "text": "gave me the information of"
+        },
+        {
+          "text": "gave me the meaning of"
+        },
+        {
+          "text": "get back to me the definition of"
+        },
+        {
+          "text": "get back to me the details of"
+        },
+        {
+          "text": "get back to me the explanation of"
+        },
+        {
+          "text": "get back to me the meaning of"
+        },
+        {
+          "text": "get back to me the reason of"
+        },
+        {
+          "text": "gave me the information for"
+        }
+      ]
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General-Where_To",
+      "examples": [
+        {
+          "text": "where to"
+        }
+      ]
+    },
+    {
+      "intent": "General-Which",
+      "examples": [
+        {
+          "text": "which are"
+        },
+        {
+          "text": "which is"
+        },
+        {
+          "text": "which"
+        }
+      ]
+    },
+    {
+      "intent": "General-What_To",
+      "examples": [
+        {
+          "text": "what to"
+        }
+      ]
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "This is great"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General-Response_ok",
+      "examples": [
+        {
+          "text": "Kk"
+        },
+        {
+          "text": "Okie"
+        },
+        {
+          "text": "Sounds good"
+        },
+        {
+          "text": "Okie dokie"
+        },
+        {
+          "text": "Ok"
+        },
+        {
+          "text": "No worries"
+        },
+        {
+          "text": "Surely"
+        },
+        {
+          "text": "Sure"
+        },
+        {
+          "text": "No worry"
+        },
+        {
+          "text": "Okey-dokey"
+        },
+        {
+          "text": "Uh-huh"
+        },
+        {
+          "text": "Okey dokey"
+        },
+        {
+          "text": "K"
+        },
+        {
+          "text": "No problem"
+        },
+        {
+          "text": "Verily"
+        },
+        {
+          "text": "Okay"
+        },
+        {
+          "text": "Noted"
+        },
+        {
+          "text": "Duly noted"
+        },
+        {
+          "text": ":P"
+        }
+      ]
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "Do not like you?"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "General-Response_no",
+      "examples": [
+        {
+          "text": "Will do it another time"
+        },
+        {
+          "text": "Nay"
+        },
+        {
+          "text": "NoNo"
+        },
+        {
+          "text": "Nil"
+        },
+        {
+          "text": "Can't"
+        },
+        {
+          "text": "Cannot"
+        },
+        {
+          "text": "By no means"
+        },
+        {
+          "text": "Not this one"
+        },
+        {
+          "text": "Absolutely not"
+        },
+        {
+          "text": "Nope I am not"
+        },
+        {
+          "text": "Of cos not"
+        },
+        {
+          "text": "That will be all"
+        },
+        {
+          "text": "I will access another time"
+        },
+        {
+          "text": "Is ok I will do it later"
+        },
+        {
+          "text": "N"
+        },
+        {
+          "text": "Have not"
+        },
+        {
+          "text": "Nah"
+        },
+        {
+          "text": "I will do it later"
+        },
+        {
+          "text": "not at the moment"
+        },
+        {
+          "text": "NONE OF THOSE RELATE TO MY QUERY"
+        },
+        {
+          "text": "Haven't"
+        },
+        {
+          "text": "100% a no"
+        },
+        {
+          "text": "later"
+        },
+        {
+          "text": "I don't think so"
+        },
+        {
+          "text": "I can't"
+        },
+        {
+          "text": "I cannot"
+        },
+        {
+          "text": "Unlikely"
+        },
+        {
+          "text": "Never"
+        },
+        {
+          "text": "Nia"
+        },
+        {
+          "text": "Don't want"
+        },
+        {
+          "text": "Nix"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "No No"
+        },
+        {
+          "text": "No way"
+        },
+        {
+          "text": "No-no"
+        },
+        {
+          "text": "Nope"
+        },
+        {
+          "text": "Not this time"
+        },
+        {
+          "text": "Not really"
+        },
+        {
+          "text": "Not now"
+        },
+        {
+          "text": "Negative"
+        },
+        {
+          "text": "Not likely"
+        },
+        {
+          "text": "Not at all"
+        },
+        {
+          "text": "I can access it another time"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Cuisine",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Swedish",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "African",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Asian",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Burmese",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cambodian",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chinese",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dim Sum",
+          "synonyms": [
+            "snacks"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Filipino",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Indian",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Indonesian",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Japanese",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Korean",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Singaporean",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cze Char",
+          "synonyms": [
+            "Tze Char"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Modern Singaporean",
+          "synonyms": [
+            "local",
+            "sg"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Peranakan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Thai",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vietnamese",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fusion",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Halal",
+          "synonyms": [
+            "malay"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Middle Eastern",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "South American",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mexican",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vegetarian",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Western",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "English",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "French",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "German",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Italian",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Spanish",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Vegetables",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Artichoke",
+          "synonyms": [
+            "Cynara cardunculus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Okra",
+          "synonyms": [
+            "Abelmoschus esculentus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mung bean",
+          "synonyms": [
+            "Vigna radiata"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Moth bean",
+          "synonyms": [
+            "Vigna acontifolia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lima bean",
+          "synonyms": [
+            "Phaseolus lunatus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lentil",
+          "synonyms": [
+            "Lens culinaris"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Indian pea",
+          "synonyms": [
+            "Lathyrus sativus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Horse gram",
+          "synonyms": [
+            "Macrotyloma uniflorum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Guar",
+          "synonyms": [
+            "Cyamopsis tetragonoloba"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Garbanzo",
+          "synonyms": [
+            "Cicer arietinum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Fava bean",
+          "synonyms": [
+            "Vicia faba"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dolichos bean",
+          "synonyms": [
+            "Lablab purpureus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Drumstick",
+          "synonyms": [
+            "Moringa oleifera"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Common bean",
+          "synonyms": [
+            "Phaseolus vulgaris"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chickpea",
+          "synonyms": [
+            "Cicer arietinum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Black-eyed pea",
+          "synonyms": [
+            "Vigna unguiculata unguiculata"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Azuki bean",
+          "synonyms": [
+            "Vigna angularis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "American groundnut",
+          "synonyms": [
+            "Apios americana"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Squash blossoms",
+          "synonyms": [
+            "Cucurbita"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Courgette flowers",
+          "synonyms": [
+            "Cucurbita"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Loroco",
+          "synonyms": [
+            "Fernaldia pandurata"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Daylily",
+          "synonyms": [
+            "Hemerocallis fulva"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cauliflower",
+          "synonyms": [
+            "Brassica oleracea"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Caper",
+          "synonyms": [
+            "Capparis spinosa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Broccoli",
+          "synonyms": [
+            "Brassica oleracea"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Winter melon Benincasa hispida",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Water melon Citrullus Lanatus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "West Indian gherkin Cucumis anguria",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vanilla Vanilla",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tomato Solanum lycopersicum",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tomatillo Physalis philadelphica",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tinda Praecitrullus fistulosus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sweet pepper Capsicum annuum (grossum)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Squash Cucurbita",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pumpkin Cucurbita",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Olive fruit Olea europaea",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Luffa Luffa cylindrica",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Eggplant / Aubergine / Brinjal Solanum melongena",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ivy gourd Coccinia grandis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cucumber Cucumis sativus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chayote Sechium edule",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bitter gourd Momordica charantia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bitter melon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bell pepper Capsicum annuum",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Avocado Persea americana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yarrow",
+          "synonyms": [
+            "Achillea millefolium"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Wheatgrass",
+          "synonyms": [
+            "Triticum aestivum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Water spinach",
+          "synonyms": [
+            "Ipomoea aquatica"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Watercress",
+          "synonyms": [
+            "Nasturtium officinale"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tatsoi",
+          "synonyms": [
+            "Brassica rapa (rosularis)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Swiss chard",
+          "synonyms": [
+            "Beta vulgaris cicla (flavescens)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Summer purslane",
+          "synonyms": [
+            "Portulaca oleracea"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Spinach",
+          "synonyms": [
+            "Spinacia oleracea"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sour cabbage",
+          "synonyms": [
+            "Brassica oleracea"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sorrel",
+          "synonyms": [
+            "Rumex acetosa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Soko",
+          "synonyms": [
+            "Celosia argentea"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Zucchini",
+          "synonyms": [
+            "Marrow Cucurbita pepo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sierra Leone bologi",
+          "synonyms": [
+            "Crassocephalum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Shepherd's purse",
+          "synonyms": [
+            "Capsella bursa-pastoris"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sea kale",
+          "synonyms": [
+            "Crambe maritima"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sea beet",
+          "synonyms": [
+            "Beta vulgaris maritima"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Samphire",
+          "synonyms": [
+            "Crithmum maritimum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Radicchio",
+          "synonyms": [
+            "Cichorium intybus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Poke",
+          "synonyms": [
+            "Phytolacca americana"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Paracress",
+          "synonyms": [
+            "Acmella oleracea"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Orache",
+          "synonyms": [
+            "Atriplex hortensis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "New Zealand Spinach",
+          "synonyms": [
+            "Tetragonia tetragonioides"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Napa cabbage",
+          "synonyms": [
+            "Brassica rapa (chinensis)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mustard",
+          "synonyms": [
+            "Sinapis alba"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mizuna greens",
+          "synonyms": [
+            "Brassica rapa (nipposinica)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Melokhia",
+          "synonyms": [
+            "Corchorus capsularis",
+            "Corchorus olitorius"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mallow",
+          "synonyms": [
+            "Malvaceae"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Malabar spinach",
+          "synonyms": [
+            "Basella alba"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lizard's tail",
+          "synonyms": [
+            "Houttuynia cordata"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lettuce",
+          "synonyms": [
+            "Lactuca sativa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Land cress",
+          "synonyms": [
+            "Barbarea verna"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lamb's quarters",
+          "synonyms": [
+            "Chenopodium album"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lamb's lettuce",
+          "synonyms": [
+            "Valerianella locusta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lagos bologi",
+          "synonyms": [
+            "Talinum fruticosum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kuka",
+          "synonyms": [
+            "Adansonia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kale",
+          "synonyms": [
+            "Brassica oleracea (acephala)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Greater plantain",
+          "synonyms": [
+            "Plantago major"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Good King Henry",
+          "synonyms": [
+            "Chenopodium bonus-henricus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Golden samphire",
+          "synonyms": [
+            "Inula crithmoides"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Garden rocket",
+          "synonyms": [
+            "Eruca sativa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Fluted pumpkin",
+          "synonyms": [
+            "Telfairia occidentalis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Fiddlehead",
+          "synonyms": [
+            "Athyrium esculentum",
+            "Pteridium aquilinum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Fat hen",
+          "synonyms": [
+            "Chenopodium album"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Endive",
+          "synonyms": [
+            "Cichorium endivia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dill",
+          "synonyms": [
+            "Anethum graveolens"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dandelion",
+          "synonyms": [
+            "Taraxacum officinale"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Corn salad",
+          "synonyms": [
+            "Valerianella locusta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Common purslane",
+          "synonyms": [
+            "Portulaca oleracea"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Garland Chrysanthemum",
+          "synonyms": [
+            "Chrysanthemum coronarium"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chinese mallow",
+          "synonyms": [
+            "Malva verticillata"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chicory",
+          "synonyms": [
+            "Cichorium intybus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chickweed",
+          "synonyms": [
+            "Stellaria"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Celtuce",
+          "synonyms": [
+            "Lactuca sativa (asparagina)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Celery",
+          "synonyms": [
+            "Apium graveolens"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Catsear",
+          "synonyms": [
+            "Hypochaeris radicata"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cabbage",
+          "synonyms": [
+            "Brassica oleracea (capitata)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Brussels sprouts",
+          "synonyms": [
+            "Brassica oleracea (gemmifera)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Beet",
+          "synonyms": [
+            "Beta vulgaris vulgaris"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bok choy",
+          "synonyms": [
+            "Brassica rapa (chinensis)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Borage",
+          "synonyms": [
+            "Borago officinalis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Wakame",
+          "synonyms": [
+            "Undaria pinnatifida"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sea lettuce",
+          "synonyms": [
+            "Ulva lactuca"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sea grape",
+          "synonyms": [
+            "Caulerpa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ogonori",
+          "synonyms": [
+            "Gracilaria"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nori",
+          "synonyms": [
+            "Porphyra"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mozuku",
+          "synonyms": [
+            "Cladosiphon okamuranus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kombu",
+          "synonyms": [
+            "Laminaria japonica"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hijiki",
+          "synonyms": [
+            "Hizikia fusiformis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Carola",
+          "synonyms": [
+            "Callophyllis variegata"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Yam",
+          "synonyms": [
+            "Dioscorea"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Water chestnut",
+          "synonyms": [
+            "Eleocharis dulcis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Water caltrop",
+          "synonyms": [
+            "Trapa bicornis",
+            "Trapa natans"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Wasabi",
+          "synonyms": [
+            "Wasabia japonica"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ulluco",
+          "synonyms": [
+            "Ullucus tuberosus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Turnip",
+          "synonyms": [
+            "Brassica rapa (rapifera)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Turmeric",
+          "synonyms": [
+            "Curcuma longa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tigernut",
+          "synonyms": [
+            "Cyperus esculentus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ti",
+          "synonyms": [
+            "Cordyline fruticosa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Taro",
+          "synonyms": [
+            "Colocasia esculenta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Swede",
+          "synonyms": [
+            "Brassica napus (napobrassica)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Skirret",
+          "synonyms": [
+            "Sium sisarum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Scorzonera",
+          "synonyms": [
+            "Scorzonera hispanica"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Salsify",
+          "synonyms": [
+            "Tragopogon porrifolius"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Radish",
+          "synonyms": [
+            "Raphanus sativus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Prairie turnip",
+          "synonyms": [
+            "Psoralea esculenta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Potato",
+          "synonyms": [
+            "Solanum tuberosum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pignut",
+          "synonyms": [
+            "Conopodium majus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Parsnip",
+          "synonyms": [
+            "Pastinaca sativa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mashua",
+          "synonyms": [
+            "Tropaeolum tuberosum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jerusalem artichoke",
+          "synonyms": [
+            "Helianthus tuberosus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Horseradish",
+          "synonyms": [
+            "Armoracia rusticana"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hamburg parsley",
+          "synonyms": [
+            "Petroselinum crispum tuberosum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ginger",
+          "synonyms": [
+            "Zingiber officinale"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Galangal",
+          "synonyms": [
+            "Alpinia galanga"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ensete",
+          "synonyms": [
+            "Ensete ventricosum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Elephant foot yam",
+          "synonyms": [
+            "Amorphophallus paeoniifolius"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Earthnut pea",
+          "synonyms": [
+            "Lathyrus tuberosus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Daikon",
+          "synonyms": [
+            "Raphanus sativus (longipinnatus)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chinese artichoke",
+          "synonyms": [
+            "Stachys affinis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cassava",
+          "synonyms": [
+            "Manihot esculenta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Carrot",
+          "synonyms": [
+            "Daucus carota"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Canna",
+          "synonyms": [
+            "Canna"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Camas",
+          "synonyms": [
+            "Camassia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Broadleaf arrowhead",
+          "synonyms": [
+            "Sagittaria latifolia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Burdock",
+          "synonyms": [
+            "Arctium lappa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Beetroot",
+          "synonyms": [
+            "Beta vulgaris vulgaris"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bamboo shoot",
+          "synonyms": [
+            "Phyllostachys edulis",
+            "Bambusa vulgaris"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Manchurian wild rice",
+          "synonyms": [
+            "Zizania latifolia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Wild leek",
+          "synonyms": [
+            "Allium tricoccum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Welsh onion",
+          "synonyms": [
+            "Allium fistulosum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Shallot",
+          "synonyms": [
+            "Allium cepa (aggregatum)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Spring onion / Scallion",
+          "synonyms": [
+            "Allium wakegi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Prussian asparagus",
+          "synonyms": [
+            "Ornithogalum pyrenaicum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Potato onion",
+          "synonyms": [
+            "Allium cepa (aggregatum)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pearl onion",
+          "synonyms": [
+            "Allium ampeloprasum (sectivum)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Onion",
+          "synonyms": [
+            "Allium cepa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nopal",
+          "synonyms": [
+            "Opuntia ficus-indica"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lotus root",
+          "synonyms": [
+            "Nelumbo nucifera"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Leek",
+          "synonyms": [
+            "Allium porrum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lemongrass",
+          "synonyms": [
+            "Cymbopogon citratus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kurrat",
+          "synonyms": [
+            "Allium ampeloprasum (kurrat)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kohlrabi",
+          "synonyms": [
+            "Brassica oleracea (gongylodes)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Garlic chives",
+          "synonyms": [
+            "Allium tuberosum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Garlic",
+          "synonyms": [
+            "Allium sativum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Florence fennel",
+          "synonyms": [
+            "Foeniculum vulgare (dulce)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Elephant garlic",
+          "synonyms": [
+            "Allium ampeloprasum (ampeloprasum)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chives",
+          "synonyms": [
+            "Allium schoenoprasum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Celeriac",
+          "synonyms": [
+            "Apium graveolens (rapaceum)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cardoon",
+          "synonyms": [
+            "Cynara cardunculus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Asparagus",
+          "synonyms": [
+            "Asparagus officinalis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Yardlong bean",
+          "synonyms": [
+            "Vigna unguiculata (sesquipedalis)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Winged bean",
+          "synonyms": [
+            "Psophocarpus tetragonolobus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Velvet bean",
+          "synonyms": [
+            "Mucuna pruriens"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Urad bean",
+          "synonyms": [
+            "Vigna mungo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tepary bean",
+          "synonyms": [
+            "Phaseolus acutifolius"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Soybean",
+          "synonyms": [
+            "Glycine max"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sweet potato",
+          "synonyms": [
+            "Ipomoea batatas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Runner bean",
+          "synonyms": [
+            "Phaseolus coccineus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ricebean",
+          "synonyms": [
+            "Vigna umbellata"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pigeon pea",
+          "synonyms": [
+            "Cajanus cajan"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Peanut",
+          "synonyms": [
+            "Arachis hypogaea"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pea",
+          "synonyms": [
+            "Pisum sativum"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Herbs",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Parsley",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mint",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ginger",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Coriander",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cinnamon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Celtic Sea Salt",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Thyme",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Basil",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cayenne Pepper",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cumin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chilli Powder",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chives",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rosemary",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Oregano",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "Pig",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Boneless",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Belly",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Neck Ends",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Loins",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Legs",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Shoulders",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Whole pigs / sides",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "Nuts",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Hemp",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Flax",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Coconut",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cashews",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Brazil",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Almonds",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Walnut",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sunflower",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sesame",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pecan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Macadamia",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "Chicken",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Thighs",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Legs",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fronts",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Whole Birds",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Wings",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fillet",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Supremes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Drum Sticks",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "Fruits",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Mandarin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nectarine",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Strawberries",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pomegranate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Plum",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Peach",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pineapple",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Orange",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Olives",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Apple",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Avocado",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cherries",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Blueberries",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cranberries",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Coconut",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Banana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dragonfruit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Figs",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Guava",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Grapefruit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Grapes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kiwi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lychees",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lemon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mango",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lime",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Melon",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "Lambs",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Shoulders",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Whole lambs",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Legs",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chines",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Best End",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Short Fore",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Breast",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chumps",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Loins",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Racks",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Neck Fillets",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mutton Legs",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "Beef",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Briskets",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Flanks",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Shins",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ponies",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Shorts",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fore Ribs",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Loins",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rumps",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Top Bits",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Whole Sides",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Trim",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Flank Steak",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rump Tail",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Striploin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chuck Roll",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ribeye",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fillet",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Topside",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Silverside",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Knuckle",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rump",
+          "synonyms": []
+        }
+      ]
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {},
+      "metadata": {},
+      "dialog_node": "node_1_1563326779198",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Replying cuisine",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That is a type of cuisine"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "@Cuisine",
+      "dialog_node": "node_1_1559181737156",
+      "previous_sibling": "node_1_1563326779198"
+    },
+    {
+      "type": "standard",
+      "title": "Reply food",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Reply recipe"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "@Vegetables || @Herbs || @Beef",
+      "dialog_node": "node_1_1559801068271",
+      "previous_sibling": "node_1_1559181737156"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1559801068271"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "e21ef2a6-2ff4-425e-bb8c-3a08e2e547d8",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Training"
+}

@@ -62,7 +62,7 @@ export class RegisterView extends Component {
       goBack();
     })
     .catch((err)=>{
-      console.error(err);
+      //console.error(err);
       const res=err.response;
       if(res===undefined){
         console.error(res);

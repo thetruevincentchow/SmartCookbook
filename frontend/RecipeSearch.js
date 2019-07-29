@@ -53,7 +53,8 @@ export class RecipeSearch extends Component {
   fetchRecipeList() {
     const x=this;
     return axios.get('http://localhost:3001/recipe/all').then(function(res){
-      x.setState((state,props) => {return {...state, recipeList: res.data}});
+      const recipeList = res.data.map((y) => {return {...y, available:x.checkRecipeIngredients(y)}});
+      x.setState((state,props) => {return {...state, recipeList: recipeList}});
       setTimeout(function(){
         x.updateSearch('');
       }, 100);
@@ -83,6 +84,18 @@ export class RecipeSearch extends Component {
     }
   }
   
+  checkRecipeIngredients(recipe){
+    const x=recipe;
+    return x.ingredients.every(
+      (ingredient) => {
+        const id = ingredientIds.get(ingredient.name.trim());
+        const availableQuantity = this.getAvailableQuantity(id);
+        return unitConvert(availableQuantity.amount, availableQuantity.unit, ingredient.unit)
+          >= numericQuantity(ingredient.amount);
+      }
+    );
+  }
+  
   filterResults(searchText, availableOnly, results) {
     let text = searchText.toLowerCase();
 
@@ -92,14 +105,7 @@ export class RecipeSearch extends Component {
 
 
     if(availableOnly){
-      return r.filter((x) => x.ingredients.every(
-        (ingredient) => {
-          const id = ingredientIds.get(ingredient.name.trim());
-          const availableQuantity = this.getAvailableQuantity(id);
-          return unitConvert(availableQuantity.amount, availableQuantity.unit, ingredient.unit)
-            >= numericQuantity(ingredient.amount);
-        }
-      ));
+      return r.filter((x) => this.checkRecipeIngredients(x));
     }else{
       return r;
     }
@@ -192,6 +198,7 @@ export class RecipeSearch extends Component {
           checked={this.state.availableOnly}
           onPress={()=>this.toggleDisplayAvailable()}
         />
+        {(this.state.searchResults!==null)?(<Text>{this.state.searchResults.length} results available</Text>):null}
         <FlatList
           contentContainerStyle={{ flexGrow: 1 }}
           ListEmptyComponent={
@@ -205,10 +212,12 @@ export class RecipeSearch extends Component {
           renderItem={({item}) => {
             return (
               <TouchableNativeFeedback
-                onPress={() => navigate('RecipeView', {id: item.id, name: item.name})}
+                onPress={() => {
+                  return navigate('RecipeView', {id: item.id, name: item.name});
+                }}
                 background={TouchableNativeFeedback.SelectableBackground()}
               >
-                <View style={{paddingTop:5, paddingBottom:5, flexDirection: 'row'}}>
+                <View style={item.available ? styles.item : {...styles.item, ...styles.itemUnavailable}}>
                   <Text style={styles.instructions}> {item.votes} </Text>
                   <Text style={{fontSize:20, flex:1, flexGrow:1, marginRight:5}}> {item.name} </Text>
                 </View>
@@ -243,6 +252,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5FCFF',
     flex: 1,
   },
+  itemUnavailable: {
+    backgroundColor: '#FFC0CB'
+  },
   welcome: {
     fontSize: 20,
     textAlign: 'center',
@@ -261,6 +273,10 @@ const styles = StyleSheet.create({
     padding: 10,
     fontSize: 18,
     height: 44,
+    
+    paddingTop:5,
+    paddingBottom:5,
+    flexDirection: 'row'
   },
   sectionHeader: {
     paddingTop: 2,

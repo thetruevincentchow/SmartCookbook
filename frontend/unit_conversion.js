@@ -9,6 +9,12 @@ const unitScales = {
   "tbsp": 17.7582, //in ml
   "quart": 1136.52, //in ml
   "g": 1, //volume of 1 g water in ml
+  "kg": 1000, //volume of 1000 g water in ml
+  "ml": 1, //in ml
+  "l": 1000, //in ml
+  "oz": 28.34952, //volume of 1 oz water in ml
+  "fl oz": 28.34952,
+  "lb": 453.5924, //volume of 1 lb water in ml
 };
 
 export function unitConvert(fromAmount, fromUnit, toUnit){
